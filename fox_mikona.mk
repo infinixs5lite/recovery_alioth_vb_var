@@ -66,6 +66,9 @@ OF_USE_DMCTL := 1
 # frp
 OF_ENABLE_FRP_ADDON := 1
 
+# require the user to reboot the recovery after flashing a ROM
+OF_BLOCK_OPERATIONS_AFTER_ROM_FLASH := 1
+
 # don't keep log history - only use for Stable releases
 ifeq ($(FOX_BUILD_TYPE),Stable)
    OF_DONT_KEEP_LOG_HISTORY := 1
