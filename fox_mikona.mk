@@ -73,4 +73,7 @@ OF_BLOCK_OPERATIONS_AFTER_ROM_FLASH := 1
 ifeq ($(FOX_BUILD_TYPE),Stable)
    OF_DONT_KEEP_LOG_HISTORY := 1
 endif
+
+# unmount sdcards before rebooting
+OF_UNMOUNT_SDCARDS_BEFORE_REBOOT := 1
 #
