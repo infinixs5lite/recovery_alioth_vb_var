@@ -46,7 +46,7 @@ OF_UNBIND_SDCARD_F2FS := 1
 OF_WIPE_METADATA_AFTER_DATAFORMAT := 1
 
 # avoid MTP issues after data format
-OF_BIND_MOUNT_SDCARD_ON_FORMAT := 1
+#OF_BIND_MOUNT_SDCARD_ON_FORMAT := 1
 
 # refresh encryption props before formatting data
 #  OF_REFRESH_ENCRYPTION_PROPS_BEFORE_FORMAT := 1
